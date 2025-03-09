@@ -1,15 +1,12 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99
+CFLAGS = -Wall -Wextra 
 TARGET = hello_program
 
-all: $(TARGET)
-
-$(TARGET): main.c
+all:
 	$(CC) $(CFLAGS) -o $(TARGET) main.c
 
 clean:
 	rm -f $(TARGET)
-~
 ~
 ~
 ~
