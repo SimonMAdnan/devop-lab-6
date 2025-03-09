@@ -1,0 +1,13 @@
+# Build artifacts
+hello_program
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executables
+*.exe
+*.out
+*.app
